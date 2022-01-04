@@ -1,4 +1,4 @@
-setwd("C:/Users/camil/Documents/Estudos/Ecologia, Evolu????o e Conserva????o da Biodiversidade/PIBIC I/micrurus lemniscatus diutus")
+setwd("C:/")
 library(adegenet)
 library(spdep)
 library(raster) 
