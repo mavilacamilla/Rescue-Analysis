@@ -1,4 +1,4 @@
-setwd("C:/Users/camil/Documents/Estudos/Ecologia, Evolu????o e Conserva????o da Biodiversidade/PIBIC I/micrurus lemniscatus lemniscatus")
+setwd("C:/")
 library(adegenet)
 library(spdep)
 library(raster) 
@@ -45,7 +45,7 @@ lemniscatus_occurence<-occur.final[,c(1,2,5,6,7)]
 names(lemniscatus_occurence)<-c( "id","lemniscatus","long","lat","bio8")
 
 ###
-#Presente
+#Present
 occurence.pres<-merge(lemniscatus_occurence,data.pres,by=c("long","lat"))
 threshold<-min(occurence.pres$suit)
 
